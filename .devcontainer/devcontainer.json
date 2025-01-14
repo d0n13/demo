@@ -7,7 +7,8 @@
             "extensions": [
                 "dbaeumer.vscode-eslint",
                 "esbenp.prettier-vscode",
-                "humao.rest-client"
+                "humao.rest-client",
+                "ms-vscode.js-debug-nightly" // Add this extension for JavaScript debugging
             ]
         },
         "settings": {
@@ -15,5 +16,5 @@
             "remote.localPortHost": "allInterfaces"
         }
     },
-    "forwardPorts": [3000]
+    "forwardPorts": [3001]
 }
