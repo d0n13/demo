@@ -1,0 +1,8 @@
+POST http://localhost:3001/api/v1/login HTTP/1.1
+Host: localhost
+Content-Type: application/json
+
+{
+  "username": "donie.kelly@gmail.com",
+  "password": "donie123"
+}

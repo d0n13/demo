@@ -1,0 +1,19 @@
+    {
+    "name": "Node.js Development Container",
+    "dockerFile": "../Dockerfile",
+    "context": "..",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "dbaeumer.vscode-eslint",
+                "esbenp.prettier-vscode",
+                "humao.rest-client"
+            ]
+        },
+        "settings": {
+            "terminal.integrated.shell.linux": "/bin/bash",
+            "remote.localPortHost": "allInterfaces"
+        }
+    },
+    "forwardPorts": [3000]
+}

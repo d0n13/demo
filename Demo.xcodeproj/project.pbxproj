@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		B27240442D2F07AA00F676BF /* PTSB_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PTSB_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B27240442D2F07AA00F676BF /* LoginDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		B27240462D2F07AA00F676BF /* PTSB_Demo */ = {
+		B27240462D2F07AA00F676BF /* LoginDemo */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PTSB_Demo;
+			path = LoginDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		B272403B2D2F07AA00F676BF = {
 			isa = PBXGroup;
 			children = (
-				B27240462D2F07AA00F676BF /* PTSB_Demo */,
+				B27240462D2F07AA00F676BF /* LoginDemo */,
 				B27240452D2F07AA00F676BF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +40,7 @@
 		B27240452D2F07AA00F676BF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B27240442D2F07AA00F676BF /* PTSB_Demo.app */,
+				B27240442D2F07AA00F676BF /* LoginDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B27240432D2F07AA00F676BF /* PTSB_Demo */ = {
+		B27240432D2F07AA00F676BF /* LoginDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B27240522D2F07AB00F676BF /* Build configuration list for PBXNativeTarget "PTSB_Demo" */;
+			buildConfigurationList = B27240522D2F07AB00F676BF /* Build configuration list for PBXNativeTarget "LoginDemo" */;
 			buildPhases = (
 				B27240402D2F07AA00F676BF /* Sources */,
 				B27240412D2F07AA00F676BF /* Frameworks */,
@@ -61,13 +61,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				B27240462D2F07AA00F676BF /* PTSB_Demo */,
+				B27240462D2F07AA00F676BF /* LoginDemo */,
 			);
-			name = PTSB_Demo;
+			name = LoginDemo;
 			packageProductDependencies = (
 			);
-			productName = PTSB_Demo;
-			productReference = B27240442D2F07AA00F676BF /* PTSB_Demo.app */;
+			productName = LoginDemo;
+			productReference = B27240442D2F07AA00F676BF /* LoginDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B272403F2D2F07AA00F676BF /* Build configuration list for PBXProject "PTSB_Demo" */;
+			buildConfigurationList = B272403F2D2F07AA00F676BF /* Build configuration list for PBXProject "Demo" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B27240432D2F07AA00F676BF /* PTSB_Demo */,
+				B27240432D2F07AA00F676BF /* LoginDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -251,7 +251,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"PTSB_Demo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LoginDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = 3W94EYHAUL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -280,7 +280,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"PTSB_Demo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LoginDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = 3W94EYHAUL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -305,7 +305,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B272403F2D2F07AA00F676BF /* Build configuration list for PBXProject "PTSB_Demo" */ = {
+		B272403F2D2F07AA00F676BF /* Build configuration list for PBXProject "Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B27240502D2F07AB00F676BF /* Debug */,
@@ -314,7 +314,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B27240522D2F07AB00F676BF /* Build configuration list for PBXNativeTarget "PTSB_Demo" */ = {
+		B27240522D2F07AB00F676BF /* Build configuration list for PBXNativeTarget "LoginDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B27240532D2F07AB00F676BF /* Debug */,
