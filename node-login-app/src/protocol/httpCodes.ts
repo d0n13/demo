@@ -1,5 +1,6 @@
 export const HTTP = {
     OK: 200,
     UNAUTHORIZED: 401,
-    FORBIBBEN: 403
+    FORBIBBEN: 403,
+    METHOD_NOT_ALLOWED: 405
 }

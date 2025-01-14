@@ -7,7 +7,8 @@ import { HTTP } from "../protocol/httpCodes"
 declare module 'express-serve-static-core' {
     interface Request {
         user?: {
-            privileges: Privilege[]
+            privileges: Privilege,
+            username: string
         }
     }
 }
@@ -24,15 +25,17 @@ export function authenticateToken(req: Request, res: Response, next: NextFunctio
     })
 }
 
-export function checkPrivileges(requiredPrivileges: Privilege) {
+export function checkPrivileges(required: Privilege) {
 
     return (req: Request, res: Response, next: NextFunction) => {
         
         verifyToken(req).then(() => {
 
-            const userPrivileges: Privilege[] = req.user?.privileges || []
-            const hasPrivileges = userPrivileges.some(privilege => PrivilegeHierarchy[privilege] >= PrivilegeHierarchy[requiredPrivileges]);
-            if (!hasPrivileges) {
+            console.log(`User privilege: ${req.user?.privileges}. Required: ${required}`)
+            console.log(`has: ${PrivilegeHierarchy[req.user?.privileges || Privilege.UNKNOWN]}`)
+            console.log(`needs: ${PrivilegeHierarchy[required]}`)
+            if(PrivilegeHierarchy[req.user?.privileges || Privilege.UNKNOWN] < PrivilegeHierarchy[required]) {
+            
                 return res.status(HTTP.FORBIBBEN).json({ message: 'Insufficient privileges' })
             }
 
