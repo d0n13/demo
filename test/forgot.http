@@ -1,0 +1,8 @@
+
+GET http://localhost:3001/api/v1/forgot HTTP/1.1
+Host: localhost
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImRvbmllQGdtYWlsLmNvbSIsInByaXZpbGVnZXMiOiJhZG1pbiIsImlhdCI6MTczNjg5MDg3MCwiZXhwIjoxNzM2ODkxMTcwfQ.DiS2qZxtsO6JNjkcLF9UBldQav9B1peg34aGRcFc3uw
+
+{
+    "username": "donie@gmail.com"
+}

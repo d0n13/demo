@@ -3,6 +3,6 @@ Host: localhost
 Content-Type: application/json
 
 {
-  "username": "donie.kelly@gmail.com",
-  "password": "donie123"
+  "username": "jason@gmail.com",
+  "password": "jason"
 }

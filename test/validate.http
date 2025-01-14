@@ -1,0 +1,3 @@
+GET http://localhost:3001/api/v1/admin HTTP/1.1
+Host: localhost
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImRvbmllQGdtYWlsLmNvbSIsInByaXZpbGVnZXMiOiJhZG1pbiIsImlhdCI6MTczNjg5MTk2NSwiZXhwIjoxNzM2ODkyMjY1fQ.ji6AUlrixiHfbQrTgzcSr2JGRIBnx6gH5lsbqf_06ik

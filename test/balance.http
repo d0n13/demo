@@ -1,0 +1,3 @@
+GET http://localhost:3001/api/v1/balance HTTP/1.1
+Host: localhost
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imphc29uQGdtYWlsLmNvbSIsInByaXZpbGVnZXMiOiJ1c2VyIiwiaWF0IjoxNzM2ODkyMTkwLCJleHAiOjE3MzY4OTI0OTB9.jp9yTVywx6CFSi-wYJW_TNj8NazfXt3NDvxbPZ9B2Fo
