@@ -23,12 +23,7 @@ class AccountAPI {
         var balanceStatus: string
         
         // Get the username from the JWT token
-        console.log(`User from request: ${req.user.username}`)
         const user = UserList.find(user => user.username === req.user.username) as User
-
-        // const user = UserList.find(user => username === username) as User
-
-        console.log(`user: ${user}. Looking for ${username}`);
 
         if (user) {
 

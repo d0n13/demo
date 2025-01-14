@@ -16,7 +16,6 @@ class AdminAPI {
 
     validate(req: any, res: any): any {
 
-        console.log(`User from request: ${req.user.username}`)
         const user = UserList.find(user => user.username === req.user.username && user.privilege == Privilege.ADMIN) as User
         if (user) {
 

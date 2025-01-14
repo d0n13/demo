@@ -24,7 +24,7 @@ export function setAuthRoutes(app: any) {
     router.get('/version', authenticateToken, checkPrivileges(Privilege.GUEST), (req, res) =>
         VersionAPI.version(req, res))
 
-    // User allows you to request user info. Need to be logged in with user permissions or higher
+    // User allows you to request user balance. Need to be logged in with user permissions or higher
     router.get('/balance', authenticateToken, checkPrivileges(Privilege.USER), (req, res) =>
         AccountAPI.balance(req, res))
 

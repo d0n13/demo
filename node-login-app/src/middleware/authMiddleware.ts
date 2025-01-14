@@ -31,9 +31,6 @@ export function checkPrivileges(required: Privilege) {
         
         verifyToken(req).then(() => {
 
-            console.log(`User privilege: ${req.user?.privileges}. Required: ${required}`)
-            console.log(`has: ${PrivilegeHierarchy[req.user?.privileges || Privilege.UNKNOWN]}`)
-            console.log(`needs: ${PrivilegeHierarchy[required]}`)
             if(PrivilegeHierarchy[req.user?.privileges || Privilege.UNKNOWN] < PrivilegeHierarchy[required]) {
             
                 return res.status(HTTP.FORBIBBEN).json({ message: 'Insufficient privileges' })
