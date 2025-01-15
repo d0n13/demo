@@ -4,7 +4,7 @@ class VersionAPI {
 
     version(req: any, res: any): any {
 
-        return res.status(HTTP.OK).json({ verison: '1.0.0'})
+        return res.status(HTTP.OK).json({ version: '1.0.0'})
     }
 }
 

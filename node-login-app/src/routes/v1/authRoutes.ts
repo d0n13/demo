@@ -17,11 +17,11 @@ export function setAuthRoutes(app: any) {
         LoginAPI.login(req, res))
     
     // Login allows you to send forgot request. No permissions required
-    router.get('/forgot', (req, res) =>
+    router.post('/forgot', (req, res) =>
         ForgotAPI.forgotPassword(req, res))
 
-    // Version allows you to send a simple version request. Need to be logged in with any permissions
-    router.get('/version', authenticateToken, checkPrivileges(Privilege.GUEST), (req, res) =>
+    // Version allows you to send a simple version request. No permissions required
+    router.get('/version', (req, res) =>
         VersionAPI.version(req, res))
 
     // User allows you to request user balance. Need to be logged in with user permissions or higher

@@ -25,6 +25,7 @@ class ForgotAPI {
             let response: ForgotPasswordResponse = {
                 message: 'Password reset email sent'
             }    
+            console.log(response)
             return res.status(HTTP.OK).json(response)
         }
         
